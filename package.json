@@ -1,0 +1,15 @@
+{
+  "name": "@bengsfort/eslint-config",
+  "description": "A simple and straight forward eslint config that I use in all of my projects.",
+  "packageManager": "yarn@3.6.3",
+  "main": "index.js",
+  "files": [],
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/parser": "*",
+    "eslint": "*"
+  }
+}
