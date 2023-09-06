@@ -226,10 +226,6 @@ module.exports = {
             group: ['src/*'],
             message: 'You should import using alias or with relative path',
           },
-          {
-            group: ['@noice-com/*/dist/*'],
-            message: 'You should not import inside this package',
-          },
         ],
       },
     ],
