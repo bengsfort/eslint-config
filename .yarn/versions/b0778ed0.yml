@@ -1,7 +1,0 @@
-releases:
-  "@bengsfort/eslint-config": minor
-  "@bengsfort/eslint-config-react": minor
-  "@bengsfort/eslint-config-react-native": minor
-
-undecided:
-  - eslint-config
