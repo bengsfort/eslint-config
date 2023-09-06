@@ -1,5 +1,6 @@
 {
   "name": "@bengsfort/eslint-config",
+  "private": false,
   "description": "A simple and straight forward eslint config that I use in all of my projects.",
   "packageManager": "yarn@3.6.3",
   "main": "index.js",
