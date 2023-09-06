@@ -4,7 +4,8 @@
   "packageManager": "yarn@3.6.3",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "prettier.config.js"
   ],
   "version": "1.0.0",
   "engines": {
