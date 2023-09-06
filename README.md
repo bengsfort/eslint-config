@@ -1,42 +1,26 @@
-# @bengsfort/eslint-config
+# eslint-config
 
-Simple and straight forward eslint config that I use in my personal projects.
+Repo containing my personal eslint configs. Extensions Welcome.
 
-## Installation
+## Releasing
 
-1. Add as a dev dependency.
+Versioning is handled via [`@yarnpkg/plugin-version`](https://yarnpkg.com/cli/version).
+
 ```sh
-# Add config.
-$ yarn add -D @bengsfort/eslint-config
-# Add peer deps if you don't have them yet.
-$ yarn add -D eslint @typescript-eslint/parser
+# Releasing just one package:
+$ yarn version <strategy> --immediate
+# ... commit + push ...
+$ yarn npm publish
+
+# Releasing all lazily
+$ yarn version <strategy> --deferred
+$ yarn version apply (--recursive|--all)
+# ...commit + push ...
+$ yarn publish-all # from root
 ```
 
-2. Extend the config from your eslint config, and add the ts parser.
-```js
-module.exports = {
-    // . . .
+## @todo
 
-    "extends": [
-        "@bengsfort",
-    ],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        "project": ["./tsconfig.json"], // Path to your tsconfig.
-        "ecmaVersion": 21,
-        "sourceType": "module",
-    },
-
-    // . . .
-};
-```
-
-## Prettier
-
-Prettier config is also available, just add the following line to your `package.json`.
-
-```json
-{
-    "prettier": "@bengsfort/eslint-config/prettier.config.js",
-}
-```
+- [ ] Github actions for auto releasing
+- [ ] Proper documentation, code examples, etc.
+- [ ] eslint 9 support (esm support)

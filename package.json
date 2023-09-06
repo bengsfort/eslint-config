@@ -9,5 +9,8 @@
   "version": "0.1.0",
   "engines": {
     "node": ">=20.0.0"
+  },
+  "scripts": {
+    "publish-all": "yarn workspaces foreach -ptR --from '{@bengsfort/eslint-config,@bengsfort/eslint-config-react}' npm publish --tolerate-republish"
   }
 }
