@@ -1,6 +1,0 @@
-releases:
-  "@bengsfort/eslint-config": major
-  "@bengsfort/eslint-config-react": major
-
-undecided:
-  - eslint-config
