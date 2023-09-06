@@ -13,6 +13,6 @@
   "scripts": {
     "version-all": "yarn version apply --all",
     "version-all:check": "yarn version apply --all --dry-run",
-    "publish-all": "yarn workspaces foreach -ptR --from '{@bengsfort/eslint-config,@bengsfort/eslint-config-react}' npm publish --tolerate-republish"
+    "publish-all": "yarn workspaces foreach -ptR --from '{@bengsfort/eslint-config,@bengsfort/eslint-config-react,@bengsfort/eslint-config-react-native}' npm publish --tolerate-republish"
   }
 }
