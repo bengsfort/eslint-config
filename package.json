@@ -8,7 +8,7 @@
   "packageManager": "yarn@3.6.3",
   "version": "0.1.0",
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=16.0.0"
   },
   "scripts": {
     "version-all": "yarn version apply --all",
